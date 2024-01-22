@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTelefon.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label Text="telefon" />
+            <Entry 
+                WidthRequest="300"
+                HeightRequest="70"
+                FontSize="48"
+                Text="0"
+                HorizontalTextAlignment="End"
+                x:Name="entNumer"
+                />
+
+
+            <Grid HorizontalOptions="Center">
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Button Text="1"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"
+                        />
+                <Button Text="2"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"
+                        />
+                <Button Text="3"
+                        Grid.Row="0"
+                        Grid.Column="02"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"
+                        />
+                <Button Text="3"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"
+                        />
+                <Button Text="5"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"
+                        />
+                <Button Text="6"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"                        
+                        />
+                <Button Text="7"
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"                        
+                        />
+                <Button Text="8"
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"                        
+                        />
+                <Button Text="9"
+                        Grid.Row="2"
+                        Grid.Column="2"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"                        
+                        />
+                <Button Text="*"
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"                        
+                        />
+                <Button Text="0"
+                        Grid.Row="3"
+                        Grid.Column="1"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"                        
+                        />
+                <Button Text="#"
+                        Grid.Row="3"
+                        Grid.Column="2"
+                        Clicked="btnClicked"
+                        Margin="5"
+                        BackgroundColor="LightGray"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"                        
+                        />
+                <Button Text="call"
+                        Grid.Row="4"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="3"
+                        Clicked="btnCallClicked"
+                        Margin="5"
+                        BackgroundColor="LightGreen"
+                        TextColor="black"
+                        FontSize="48"
+                        FontAttributes="Bold"                        
+                        />
+
+
+
+            </Grid>
+            <Label Text="" x:Name="lblTest" FontSize="20"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
